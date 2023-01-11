@@ -25,3 +25,74 @@ img{
     padding-right: 15px;
     margin: 0 auto;
 }
+.logo{
+color: #000000;
+
+}
+.header-logo{
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+
+color: #2196F3;
+
+}
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.navigation{
+    display: flex;
+    gap: 93px;
+    align-items: center;
+}
+.navigation-list{
+    display: flex;
+    gap: 50px;
+}
+.header-list{
+    display:flex;
+gap: 30px;
+}
+.navigation-list-link{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+display:block;
+color: #212121;
+padding-top: 32px;
+padding-bottom: 32px;
+
+
+
+}
+
+.header-list-link{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+display: flex;
+align-items: center;
+color: #757575;
+fill: #757575;
+}
+.header-list-svg{
+    margin-right: 10px;
+    display: flex;
+
+}
+.header-list-link:hover,.navigation-list-link:hover{
+    color: #2196F3;
+fill: #2196F3;
+}
